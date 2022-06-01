@@ -9,18 +9,4 @@ export class AuthService{
     signUp() {
         return { msg: 'I have signed up!'}
     }
-
-    gastronomicTours() {
-        return {
-            cityId: 1,
-            cityName: "Rio de Janeiro",
-            cityAlias: "rio",
-            tourTopics: [
-                {
-                    tittle: "Confeitaria Colombo",
-                    description: "Patrimônio cultural, há 126 anos reúne histórias por meio da gastronomia."
-                }
-            ]
-        }
-}
 }

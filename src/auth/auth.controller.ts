@@ -14,9 +14,4 @@ export class AuthController {
     signUp() {
         return this.authService.signUp();
     }
-
-    @Post('gastronomicTours')
-    gastronomicTours() {
-        return this.authService.gastronomicTours();
-    }
 }
