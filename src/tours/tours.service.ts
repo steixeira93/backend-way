@@ -17,11 +17,38 @@ export class ToursService{
             cityId: 2,
             cityName: 'Vassouras',
             cityAlias: 'vassouras',
-            tourTopics: {
-                name: 'Museu do blabla',
-                description: '...',
-                picture: '...'
-            }
+            tourTopics: [
+                {
+                    tittle: "Palacete Barão de Itambé",
+                    description: "...",
+                    picture: "..."
+                },
+                {
+                    tittle: "Antiga Estação Ferroviária de Vassouras",
+                    description: "...",
+                    picture: "..."
+                },
+                {
+                    tittle: "Centro Cultural Cazuza",
+                    description: "...",
+                    picture: "..."
+                },
+                {
+                    title: "Memorial Manoel Congo",
+                    description: "...",
+                    picture: "..."
+                },
+                {
+                    tittle: "Palacete Barão do Ribeirão",
+                    description: "...",
+                    picture: "..."
+                },
+                {
+                    tittle: "Museu Casa da Hera",
+                    description: "...",
+                    picture: "..."
+                }
+            ]
         },
         {
             cityId: 3,
